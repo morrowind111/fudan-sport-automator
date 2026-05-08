@@ -31,7 +31,7 @@ async def main():
         distance += random.uniform(-5.0, 25.0)
 
         # set time
-        total_time = 360
+        total_time = 300
         if args.time:
             total_time = args.time
         total_time += random.uniform(-10.0, 10.0)
